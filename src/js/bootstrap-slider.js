@@ -477,13 +477,13 @@ const windowIsDefined = (typeof window === "object");
 				sliderTrackHigh.className = "slider-track-high";
 
 				sliderMinHandle = document.createElement("div");
-				sliderMinHandle.className = "slider-handle min-slider-handle";
+				sliderMinHandle.className = "slider-handle min-slider-handle bg-primary";
 				sliderMinHandle.setAttribute('role', 'slider');
 				sliderMinHandle.setAttribute('aria-valuemin', this.options.min);
 				sliderMinHandle.setAttribute('aria-valuemax', this.options.max);
 
 				sliderMaxHandle = document.createElement("div");
-				sliderMaxHandle.className = "slider-handle max-slider-handle";
+				sliderMaxHandle.className = "slider-handle max-slider-handle bg-primary";
 				sliderMaxHandle.setAttribute('role', 'slider');
 				sliderMaxHandle.setAttribute('aria-valuemin', this.options.min);
 				sliderMaxHandle.setAttribute('aria-valuemax', this.options.max);
